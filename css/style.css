@@ -70,14 +70,11 @@ body{
 }
 
 main{
-    margin-left: 110px;
+    padding-left: 110px;
     width:65%;
     font-family: 'Roboto', Arial;
 }
 
-main div{
-    height: 100%;
-}
 
 #video iframe,
 #video object,
@@ -176,4 +173,63 @@ main div{
     font-size: 14px;
     line-height: 21px;
     margin: 5px 0;
+}
+
+#container{
+    display:flex;
+}
+
+aside{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 402px;
+    font-family: 'Roboto', Arial;
+}
+
+#sideControls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+}
+
+#sideControls div{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+}
+
+.sideVideo img{
+    height: 94px;
+}
+
+.sideVideo{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sideInformation{
+    margin-left: 10px;
+}
+
+.sideInformation p{
+    color:rgb(96, 96, 96);
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.sideInformation h4{
+    color: rgb(3, 3, 3);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#nextUp{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
