@@ -68,3 +68,55 @@ header{
 body{
     background-color: #f9f9f9;
 }
+
+main{
+    margin-left: 110px;
+    width:65%
+}
+
+main div{
+    height: 100%;
+}
+
+#video iframe,
+#video object,
+#video embed{
+    width: 100%;
+    height: 100%;
+}
+
+#video{
+    margin-top: 30px;
+    height: 700px
+}
+
+#stats{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+#views{
+    display:flex;
+}
+
+#interactionButtons{
+    display:flex;
+}
+
+#likes{
+    border-bottom: 3px solid gray;
+    padding:0 15px 15px 15px;
+}
+
+#likes p{
+    margin-left: 10px;
+}
+
+#downvote{
+    margin-left: 20px;
+}
+
+#interactionButtons div{
+    display:flex;
+}
